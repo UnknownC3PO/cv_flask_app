@@ -38,7 +38,7 @@ def about_tumor(tumor):
         return tumor_info[tumor]
     return tumor_info[tumor]
 
-model = load_model('/home/alexb/Downloads/model5_weights.h5')
+model = load_model('cv_flask_app/model5_weights.h5')
 
 def open_images(paths):
     images = []
